@@ -4,7 +4,10 @@
   "description": "Form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm i",
+    "start": "node src/index.js"
+
   },
   "author": "Pallavi",
   "license": "ISC",
