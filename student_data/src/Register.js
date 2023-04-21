@@ -37,10 +37,11 @@ function Register() {
         setInput({ ...Input, [e.target.name]: e.target.value })
     }
 
+    // https://student-data-coby.onrender.com
 
     const submitForm = async (e) => {
         e.preventDefault();
-        let { data } = await axios.post("http://localhost:5000/register", {
+        let { data } = await axios.post("https://student-data-coby.onrender.com/register", {
             ...Input
         })
        

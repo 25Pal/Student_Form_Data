@@ -9,7 +9,7 @@ function Student() {
     useEffect(() => {
         console.log("useEffect")
         async function getUser() {
-            let api = "http://localhost:5000/getUser"
+            let api = "https://student-data-coby.onrender.com/getUser"
             let data = await axios.post(api);
 
             if (data) {
